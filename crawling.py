@@ -5,7 +5,8 @@ import pandas as pd
 
 url = "https://www.kangwon.ac.kr/www/selecttnCafMenuListWU.do?key=1077&sc1=CC10&sc2=CC"
 
-request = requests.get(url)
+request = requests.get(urlsss)
+print("hello world")
 soup = BeautifulSoup(request.text, "html.parser")
 print(request.text)
 data = soup.find("table",{"class":"table"})
