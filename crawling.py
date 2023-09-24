@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from html_table_parser import parser_functions
 import pandas as pd
 
-url = "https://www.kangwon.ac.kr/www/selecttnCafMenuListWU.do?key=1077&sc1=CC10&sc2=CC"
+url = "https://www.naver.com"
 
 request = requests.get(urlsss)
 print("hello world")
