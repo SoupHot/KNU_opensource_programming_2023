@@ -3,7 +3,7 @@ body {
 }
 
 .header-image {
-    background: lightblue url(http://placehold.it/200x300) repeat;
+    background: lightblue url('http://placehold.it/200x300') repeat !important;
     background-position: top;
     height: auto;
     display: block;
