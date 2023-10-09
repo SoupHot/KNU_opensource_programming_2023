@@ -3,12 +3,12 @@ body {
 }
 
 .header-image {
-	background: url(http://placehold.it/200x300) repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
-	background-position: top;
-	height: auto;
-	display: block;
-	width: 100%;
-	text-align: center;
+    background: lightblue url(http://placehold.it/200x300) repeat;
+    background-position: top;
+    height: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 .headline {
